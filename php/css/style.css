@@ -1,0 +1,98 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    margin-right: 10px;
+    border-radius: 5%;
+}
+table{
+    margin:10px;
+    padding: -10px;
+    border-radius: 15px;
+    background-color: #00B4D8;
+}
+input.btn.btn-primary{
+    background-color: #0077B6;
+    margin-left: 10px;
+}
+td {
+    margin-left: 5px;
+}
+hr.blue {
+    border-top: 5px solid blue;
+    opacity: 100%;
+    margin-bottom: 0px;
+}
+hr.white {
+    border-top: 5px solid white; 
+    opacity: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+hr.red {
+    border-top: 5px solid red;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    opacity: 100%;
+}
+#panneau{
+    margin : 30px;
+    }
+    /*#panneau #onglets{
+    
+    }
+  
+    #panneau #onglets {
+    
+    }
+      #panneau #contenus {
+    
+    }
+    */
+    #panneau #onglets  li{
+    float:left;
+    width : 125px;
+    height : 30px;
+    line-height : 30px;
+    background : rgba(255,255,255,0.4);
+    text-align : center;
+    margin-right : 5px;
+    color : rgba(0,0,0,0.6)
+    }
+    #panneau #onglets  li.actif{
+    background : white;
+    color : black;
+    
+    }
+    
+    #panneau #contenus  li{
+    /*Je défini les propriétés communes 
+    à ts les contenus*/
+    background : white;
+    width : 500px;
+    padding : 20px;
+    
+    /*et je les masque*/
+    display : none;
+    }
+    #panneau #contenus  li.actif{
+    
+    /* j'affiche uniquement le li de class actif */
+    display : block;
+    }
+    
+    /***** HACKS CSS *******/
+    
+    .clearfix:before,
+    .clearfix:after {
+        content: " "; 
+        display: table; 
+    }
+    
+    .clearfix:after {
+        clear: both;
+    }
+    
+    .clearfix {
+        *zoom: 1;
+    }
